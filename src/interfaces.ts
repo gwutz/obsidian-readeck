@@ -1,7 +1,9 @@
-export interface MyPluginSettings {
-	mySetting: string;
+export interface ReadeckPluginSettings {
+	apiUrl: string;
+	apiToken: string;
 }
 
-export const DEFAULT_SETTINGS: MyPluginSettings = {
-	mySetting: 'default'
+export const DEFAULT_SETTINGS: ReadeckPluginSettings = {
+	apiUrl: "https://your-readeck-url.com",
+	apiToken: ""
 }

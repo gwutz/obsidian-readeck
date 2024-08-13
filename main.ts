@@ -1,3 +1,3 @@
-import MyPlugin from "./src/readeckPlugin";
+import ReadeckPlugin from "./src/readeckPlugin";
 
-export default MyPlugin;
+export default ReadeckPlugin;
